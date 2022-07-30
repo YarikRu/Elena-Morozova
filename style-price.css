@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+body {
+    background-color: rgb(236, 236, 236);
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+#price {
+    margin-top: 5px;
+    max-width: 100%;
+}
+.header {
+    min-height: 120px;
+}
+nav {
+    width: 100%;
+    min-height: 120px;
+    position: fixed;
+    border: 2px solid rgb(96, 95, 95);
+    overflow: hidden;
+    background-color: rgb(128, 128, 128);
+}
+nav ul {
+    margin-left: 90px;
+}
+nav ul li {
+    float: left;
+    list-style: none;
+    margin-right: 9%;
+    line-height: 2.5;
+}
+nav ul li a {
+    color: white;
+    font-size: 32px;
+    text-decoration: none;
+    font-family: "Pacifico";
+}
+nav ul li a img {
+    width: 60px;
+    height: 60px;
+    margin-top: 20px;
+}
+#viber {
+    margin-right: 0;
+    background-color: white;
+    height: 65px;
+    margin-top: 15px;
+    border-radius: 50%;
+}
+#viber img {
+    margin: 3px;
+}
+nav ul li a:hover {
+    color: rgb(250, 152, 227);
+    text-shadow: 1px 1px 30px pink;
+}
+.menu {
+    display: none;
+}
+.menu-phone {
+    top: 100px;
+    background-color: rgb(30, 29, 29);
+    position: fixed;
+    height: 300px;
+    width: 250px;
+    left: -100%;
+    transition: all 0.5s ease 0s;
+}
+.menu-phone p a {
+    font-size: 25px;
+    text-decoration: none;
+    margin-left: 70px;
+    margin-top: 10px;
+    font-family: "Pacifico";
+    color: white;
+}

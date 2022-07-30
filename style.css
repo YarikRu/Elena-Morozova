@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+body {
+    background-color: rgb(236, 236, 236);
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+h1 {
+    margin: 0;
+    background: rgb(18,17,18);
+    background: linear-gradient(180deg, rgba(18,17,18,1) 12%, rgba(11,241,184,1) 100%);
+    height: 200px;
+    text-align: center;
+    font-family: "Dancing Script";
+    font-size: 90px;
+    padding-top: 70px;
+    border: 2px solid green;
+}
+
+nav {
+    width: 100%;
+    min-height: 120px;
+    position: relative;
+    border: 2px solid rgb(96, 95, 95);
+    overflow: hidden;
+    background-color: rgb(128, 128, 128);
+}
+nav ul {
+    margin-left: 90px;
+}
+nav ul li {
+    float: left;
+    list-style: none;
+    margin-right: 9%;
+    line-height: 2.5;
+}
+nav ul li a {
+    color: white;
+    font-size: 32px;
+    text-decoration: none;
+    font-family: "Pacifico";
+}
+nav ul li a img {
+    width: 60px;
+    height: 60px;
+    margin-top: 20px;
+}
+#viber {
+    margin-right: 0;
+    background-color: white;
+    height: 65px;
+    margin-top: 15px;
+    border-radius: 50%;
+}
+#viber img {
+    margin: 3px;
+}
+nav ul li a:hover {
+    color: rgb(250, 152, 227);
+    text-shadow: 1px 1px 30px pink;
+}
+.menu {
+    display: none;
+}
+.menu-phone {
+    background-color: rgb(30, 29, 29);
+    position: absolute;
+    height: 300px;
+    width: 250px;
+    left: -100%;
+    transition: all 0.5s ease 0s;
+}
+.menu-phone p a {
+    font-size: 25px;
+    text-decoration: none;
+    margin-left: 70px;
+    margin-top: 10px;
+    font-family: "Pacifico";
+    color: white;
+}
+.about-me {
+    width: 100%;
+    font-size: 21px;
+}
+.block-1, .block-2,
+.block-3 {
+    min-height: 300px;
+    overflow: hidden;
+}
+.img-1, .img-2,
+.img-3, .img-4 {
+    max-width: 30%;
+    min-width: 200px;
+    max-height: 400px;
+    margin: 3% 3% 3% 5%;
+}
+.about-me-1, .about-me-2,
+.about-me-3, .about-me-4 {
+    padding-left: 10px;
+    float: left;
+    width: 60%;
+    padding-top: 7%;
+}
